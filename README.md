@@ -1,4 +1,4 @@
-# ffmpeg-cli
+# ffmpeg
 
 Useful command for ffmpeg
 
