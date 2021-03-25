@@ -1,4 +1,4 @@
-# Recommended filename syntax
+# Recommended filename
 
 Example: Filename-19700101-x265-526.mkv
 
