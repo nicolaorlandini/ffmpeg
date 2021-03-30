@@ -12,3 +12,9 @@
 The argument <code>-tag:v hvc1</code> tags the video with hvc1, which is purely for QuickTime’s benefit. It allows this very smart player to recognize the fact that it will be able to play the resulting file.
 
 Source: [Encoding H.265/HEVC for QuickTime with FFmpeg](https://brandur.org/fragments/ffmpeg-h265)
+
+## Trim video
+
+<code>ffmpeg -ss 00:00:00 -i input.mp4 -t 00:00:02 -c copy output.mp4</code>
+
+Source: [Seeking](https://trac.ffmpeg.org/wiki/Seeking)
