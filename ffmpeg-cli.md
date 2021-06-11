@@ -6,7 +6,7 @@
 
 ## Converter files
 
-<code>ffmpeg -i Video.mkv -c:v libx265 -tag:v hvc1 -preset medium -crf 26 -c:a libvorbis -b:a 128k Video-x265-526.mp4</code>
+<code>ffmpeg -i Video.mkv -c:v libx265 -tag:v hvc1 -preset medium -crf 26 -c:a libvorbis -b:a 128k -ar 44100 Video-x265-526.mp4</code>
 
 ### The "hvc1" tag
 The argument <code>-tag:v hvc1</code> tags the video with hvc1, which is purely for QuickTime’s benefit. It allows this very smart player to recognize the fact that it will be able to play the resulting file.
